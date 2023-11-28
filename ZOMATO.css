@@ -1,0 +1,781 @@
+/* akhil */
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-thin-straight/css/uicons-thin-straight.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    height: 72px;
+    width: 100%;
+}
+
+.body {
+    height: 420px;
+    width: 100%;
+    background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+}
+
+.detail {
+    height: 72px;
+    width: 1100px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+}
+
+.image-akhil {
+    height: 60px;
+    width: 300px;
+}
+
+.search_main {
+    margin-top: 30px;
+    height: 54px;
+    width: 777px;
+    background-color: white;
+    display: flex;
+    border-radius: 7px;
+    padding-right: 330px;
+}
+
+.face {
+    margin-top: 27px;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 222px;
+    width: 100%;
+}
+
+.heading-akhil {
+    margin-top: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 39px;
+    padding-right: 30px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.location input {
+    height: 50px;
+    width: 175px;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+}
+
+.search input {
+    height: 50px;
+    width: 175cm;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+.fi-sr-marker {
+    padding-top: 3px;
+    font-size: 20px;
+    color: rgb(255, 126, 139);
+    padding-left: 10px;
+}
+
+.fi-br-caret-down {
+    font-size: 20px;
+    color: rgb(71, 68, 68);
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.fi-br-tally-1 {
+    font-size: 20px;
+    color: rgb(234, 223, 223);
+    padding-top: 16px;
+    padding-left: 10px;
+}
+
+.fi-rr-search {
+    font-size: 20px;
+    color: rgb(154, 149, 149);
+}
+
+.btn1 {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.navbar {
+    width: 520px;
+    display: flex;
+    justify-content: space-between;
+}
+
+::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* akhil */
+
+/* narendra */
+
+.body1 {
+    margin-top: 38px;
+    font-family: Okra, Helvetica, sans-serif;
+    ;
+}
+
+.order_container {
+    height: 260px;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.box {
+    height: 260px;
+    width: 32.5%;
+    border: 1px solid rgb(190, 190, 190);
+    line-height: 1.5;
+    box-sizing: border-box;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.box:hover {
+    zoom: 1.03;
+}
+
+.box h4 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #363636;
+    height: 42px;
+    width: 362px;
+    padding-top: 7px;
+    padding-left: 25px;
+    position: absolute;
+    bottom: 40px;
+    background-color: #fff;
+}
+
+.box p {
+    font-size: 16px;
+    color: #4f4f4f;
+    height: 42px;
+    width: 362px;
+    /* padding-top:5px ; */
+    padding-left: 25px;
+}
+
+.box a {
+    text-decoration: none;
+}
+
+.image_narendra {
+    height: 80%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.collections_container {
+    width: 1110px;
+    margin: auto;
+    /* border: 2px solid black; */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+    margin-top: 50px;
+}
+
+.heading2_narendra {
+    font-size: 50px;
+    font-weight: 500;
+    color: #1c1c1c;
+}
+
+.collections_container h6 {
+    font-size: 18px;
+    font-weight: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.collections_container a {
+    color: rgb(255, 126, 139);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.collections_container .four4 {
+    width: 1100px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+.four4 a {
+    width: 265px;
+    height: 320px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.collections_container .four4 h5 {
+    font-size: 21px;
+    font-weight: 200;
+    color: #fff;
+    padding-top: 5px;
+    margin-left: 10px;
+}
+
+.collections_container .four4 h6 {
+    font-size: 14px;
+    font-weight: 200;
+    color: #fff;
+    justify-content: left;
+    margin-bottom: 3px;
+    margin-left: 10px;
+}
+
+/* narendra */
+/* athul */
+
+.box_athul {
+    padding-top: 100px;
+    height: 450px;
+    width: 1110px;
+    margin: auto;
+}
+
+.column1 {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.indiranagar {
+    height: 80px;
+    width: 360px;
+    border: 1px solid rgb(198, 198, 198);
+    border-radius: 6px;
+    padding: 10px;
+    display: block;
+    cursor: pointer;
+
+
+}
+
+.marathalli {
+    height: 80px;
+    width: 360px;
+    border: 1px solid rgb(198, 198, 198);
+    border-radius: 6px;
+    padding: 10px;
+
+}
+
+.whitefield {
+    height: 80px;
+    width: 360px;
+    border: 2px solid rgb(198, 198, 198);
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.column2 {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.koramanagala {
+    height: 80px;
+    width: 360px;
+    border: 2px solid rgb(198, 198, 198);
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.Hsr {
+    height: 80px;
+    width: 360px;
+    border: 2px solid rgb(198, 198, 198);
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.jayanagar {
+    height: 80px;
+    width: 360px;
+    border: 2px solid rgb(198, 198, 198);
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.column3 {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.jpnagar {
+    height: 80px;
+    width: 360px;
+    border: 2px solid rgb(198, 198, 198);
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.SarjapurRoad {
+    height: 80px;
+    width: 360px;
+    border: 2px solid rgb(198, 198, 198);
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.seemore {
+    height: 80px;
+    width: 360px;
+    border: 2px solid rgb(198, 198, 198);
+    border-radius: 6px;
+    padding: 20px;
+
+}
+
+h2 {
+    font-size: 2rem;
+    font: 20px Arial, Helvetica, sans-serif;
+    font-weight: normal;
+
+}
+
+.fi-ts-angle-small-right {
+    padding-left: 8cm;
+}
+
+.heading {
+    padding-left: 9px;
+    padding-bottom: 25px;
+
+
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding-left: 15px;
+    font-size: 42px;
+
+
+}
+
+.fi-rs-angle-small-down {
+    padding-bottom: 8cm;
+}
+
+h3 {
+    font: 16px Arial, Helvetica, sans-serif;
+}
+
+.indiranagar:hover {
+    box-shadow: 0 0 10px grey;
+
+}
+
+.marathalli:hover {
+    box-shadow: 0 0 10px grey;
+}
+
+.whitefield:hover {
+    box-shadow: 0 0 10px grey;
+}
+
+.koramanagala:hover {
+    box-shadow: 0 0 10px grey;
+}
+
+.Hsr:hover {
+    box-shadow: 0 0 10px grey;
+}
+
+.jayanagar:hover {
+    box-shadow: 0 0 10px grey;
+}
+
+.jpnagar:hover {
+    box-shadow: 0 0 10px grey;
+
+}
+
+.SarjapurRoad:hover {
+    box-shadow: 0 0 10px grey;
+}
+
+.seemore:hover {
+    box-shadow: 0 0 10px grey;
+}
+
+/* athul */
+/* aaromal */
+.app {
+    margin-top: 110px;
+    position: relative;
+    height: 550px;
+    width: 100%;
+    margin-bottom: 1cm;
+    background-color: rgb(255, 251, 247);
+    /* background-color: red; */
+    display: flex;
+    /* border: 2px solid black;*/
+    padding-top: -7cm;
+}
+
+.Head {
+    /* display: flex; */
+    /* padding-left: -20cm;
+    padding-right: 5cm; */
+    /* display: block; */
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 5.6rem;
+    color: #1c1c1c;
+}
+
+.Heading {
+    /* border: 2px solid black;*/
+    /* margin-bottom: 7cm;*/
+    /* margin-top: -2.5cm; */
+    font-family: okra, Helvetica, sans-serif;
+    font-size: 30px;
+    font-size: large;
+    padding-bottom: 7cm;
+    margin-bottom: -7cm;
+
+}
+
+/* Creating Login Options */
+input {
+    accent-color: red;
+}
+
+.name {
+    cursor: pointer;
+}
+
+.login_one {
+    width: 200px;
+}
+
+.login_two {
+    width: 400px;
+}
+
+.cont {
+    /* border: 3px solid black; */
+    height: 100px;
+    width: 500px;
+    padding-left: 0.8cm;
+    display: flex;
+    line-height: 100px;
+
+}
+
+.place {
+    height: 50px;
+    width: 8cm;
+    border-radius: 8px;
+    display: flex;
+    margin-left: 1cm;
+    padding-left: 0.5cm;
+    border-color: rgb(255, 255, 255);
+    border: 1px solid rgb(59, 58, 58);
+    outline: none;
+}
+
+.btn_aaromal {
+    /* position: absolute; */
+    height: 48px;
+    width: 150px;
+    background-color: rgb(239, 79, 95);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    top: 287px;
+    margin-left: 10px;
+
+}
+
+.link-button {
+    display: flex;
+    width: 500px;
+    height: 63px;
+}
+
+/* .btn_aaromal{
+    margin-inline: 100px;
+
+} */
+.btn_aaromal:hover {
+    background-color: rgb(217, 64, 79);
+}
+
+.download {
+    height: 200px;
+    width: 400px;
+    font-size: 14px;
+    color: rgb(156, 156, 156);
+    font-family: okra, Helvetica, sans-serif;
+    font-weight: 300;
+    margin-left: 1cm;
+    line-height: 2.5rem;
+}
+
+/* Creating the Explore Options */
+
+.he {
+    font-size: 30px;
+    color: #363636;
+    font-weight: 5;
+
+}
+
+.sub_container3 {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: .5cm;
+    padding-left: 100px;
+    margin-top: 60px;
+
+}
+
+/* section{
+    display: block;
+} */
+.child {
+    height: 66px;
+    width: 1098px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-radius: 7px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 20px;
+    color: #1c1c1c;
+    margin-left: 0.7cm;
+    border-color: whitesmoke;
+}
+
+.title {
+    padding-left: 0.7cm;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    padding-top: 6.7cm;
+
+}
+
+h1 {
+    padding-left: 0.7cm;
+}
+
+.fi-rs-angle-down {
+    padding-left: 27cm;
+    margin-top: -20px;
+    display: flex;
+    padding-bottom: 5cm;
+    font-size: 15px;
+    /* padding-top: px; */
+
+
+}
+
+.arrow {
+    padding-bottom: 2cm;
+
+}
+
+.id {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 5cm;
+    column-count: 2;
+
+}
+
+.para {
+    padding-left: 30px;
+}
+
+/* aaromal */
+
+/* anusha */
+.footer_anusha {
+    height: 482px;
+    width: 100%;
+    background: rgb(248, 248, 248);
+    margin-top: 50px;
+    padding-top: 48px;
+}
+.items{
+    height: 38px;
+    width: 1100px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.nations{
+    height: 38px;
+    width: 150px;
+    border: 1px solid rgb(181, 181, 181);
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.nations select{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.twooptions{
+    height: 38px;
+    width: 320px;
+    justify-content: space-between;
+}
+.footer-menu{
+    margin: auto;
+    height: 300px;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+
+
+}
+.downloadApp{
+    margin-top: 13px;
+    display: block;
+}
+.downloadApp img{
+    width: 100%;
+    padding-top: 7px;
+}
+.footer-menu ul{
+    margin-top: 7px;
+    padding: 0px;
+    list-style: none;
+}
+.footer-menu h3{
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.footer-menu a{
+color: rgb(128, 121, 121);
+text-decoration: none;
+font-size: 17px;
+font-weight: 200;
+line-height: 1.5;
+}
+.socialmedialinks{
+    padding-top: 10px;
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-menu-items li{
+    font-size: 1.4rem;
+    font-family: Okra, Helvetica, sans-serif;
+}
+.footer-menu-items h3{
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family:Okra, Helvetica, sans-serif ;
+}
+.Enterprise{
+    margin-top: 30px;
+}
+hr{
+    width: 1110px;
+    color: rgb(79, 79, 79);
+    margin: auto;
+}
+.rights{
+    
+    margin-top: 20px;
+    width: 1110px;
+    margin-left: 119px;
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 13.5px;
+}
+
+/* anusha */
